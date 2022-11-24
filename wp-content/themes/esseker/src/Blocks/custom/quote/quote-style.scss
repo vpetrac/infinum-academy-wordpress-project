@@ -1,0 +1,8 @@
+.block-quote {
+	text-align: var(--block-quote-align);
+
+	.quote__image {
+		display: flex;
+		justify-content: var(--block-quote-align);
+	}
+}

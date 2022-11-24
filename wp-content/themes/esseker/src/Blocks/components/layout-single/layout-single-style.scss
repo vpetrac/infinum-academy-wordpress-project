@@ -1,0 +1,48 @@
+.layout-single {
+	$this: &;
+
+	&__wrap {
+		max-width: var(--global-containers-default);
+		margin: 0 auto;
+		padding: 0 var(--global-gutters-default);
+
+		@include media(desktop up) {
+			display: grid;
+			column-gap: var(--global-gutters-default);
+			grid-template-columns: repeat(12, 1fr);
+			row-gap: var(--global-gutters-default);
+		}
+	}
+
+	&__header {
+		margin-top: 2rem;
+		margin-bottom: 4rem;
+		grid-column-end: span 12;
+	}
+
+	&__image {
+		height: 75vh;
+	}
+
+	&__meta {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		grid-column-end: span 12;
+	}
+
+	&__main-content {
+		@include media(desktop up) {
+			grid-column: 3 / span 8;
+		}
+
+		.wrapper__gutter-large--default {
+			padding: 0;
+		}
+	}
+
+	&__sidebar {
+		@include media(desktop up) {
+			grid-column: 11 / span 2;
+		}
+	}
+}

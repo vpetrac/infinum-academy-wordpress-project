@@ -1,0 +1,305 @@
+{
+	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs/develop/schemas/component.json",
+	"componentName": "paragraph",
+	"title": "Paragraph",
+	"componentClass": "paragraph",
+	"example": {
+		"attributes": {
+			"paragraphContent": "This is paragraph",
+			"paragraphSize": "regular",
+			"paragraphColor": "black",
+			"paragraphUse": true
+		}
+	},
+	"attributes": {
+		"paragraphContent": {
+			"type": "string"
+		},
+		"paragraphSize": {
+			"type": "string",
+			"default": "regular"
+		},
+		"paragraphColor": {
+			"type": "string",
+			"default": "black"
+		},
+		"paragraphUse": {
+			"type": "boolean",
+			"default": true
+		},
+		"paragraphFontFamily": {
+			"type": "string",
+			"default": "base"
+    },
+		"paragraphWeight": {
+			"type": "string",
+			"default": "regular"
+		}
+	},
+	"options": {
+		"paragraphSize": [
+			{
+				"label": "Regular (16)",
+				"value": "regular"
+			},
+			{
+				"label": "Caption (13)",
+				"value": "caption"
+			}
+		],
+		"paragraphColor": [
+			"primary",
+			"black",
+			"white",
+			"green",
+			"ocean",
+			"yellow",
+			"blue",
+			"red",
+			"cream",
+			"mist",
+			"dew",
+			"eightshift",
+			"grey",
+			"mandy",
+			"pictonBlue",
+			"mediumPurple"
+		],
+		"paragraphFontFamily": [
+            {
+                "label": "Montserrat",
+                "value": "base"
+            },
+            {
+                "label": "SourceSansPro",
+                "value": "secondary"
+            }
+        ],
+		"paragraphWeight": [
+			{
+				"label": "Regular (400)",
+				"value": "regular"
+			},
+			{
+				"label": "Bold (600)",
+				"value": "bold"
+			},
+			{
+				"label": "Extra Bold (700)",
+				"value": "extraBold"
+			}
+		]
+	},
+	"variables": {
+		"paragraphSize": {
+			"regular": [
+				{
+					"variable": {
+						"paragraph-font-size": "1rem",
+						"paragraph-line-height": "1.3"
+					}
+				},
+				{
+					"breakpoint": "tablet",
+					"variable": {
+						"paragraph-font-size": "1rem"
+					}
+				}
+			],
+			"caption": [
+				{
+					"variable": {
+						"paragraph-font-size": "0.75rem",
+						"paragraph-line-height": "1.3"
+					}
+				},
+				{
+					"breakpoint": "tablet",
+					"variable": {
+						"paragraph-font-size": "0.75rem"
+					}
+				}
+			]
+		},
+		"paragraphWeight": {
+			"regular": [
+				{
+					"variable": {
+						"paragraph-font-weight": "400"
+					}
+				}
+				
+			],
+			"bold": [
+				{
+					"variable": {
+						"paragraph-font-weight": "600"
+					}
+				}
+				
+			],
+			"extraBold": [
+				{
+					"variable": {
+						"paragraph-font-weight": "700"
+					}
+				}
+				
+			]
+			
+		},
+		"paragraphColor": {
+			"primary": [
+				{
+					"variable": {
+						"paragraph-color": "var(--global-colors-primary)",
+						"paragraph-link-color": "var(--global-colors-black)",
+						"paragraph-link-color-hover": "var(--global-colors-blue)"
+					}
+				}
+			],
+			"black": [
+				{
+					"variable": {
+						"paragraph-color": "var(--global-colors-black)",
+						"paragraph-link-color": "var(--global-colors-primary)",
+						"paragraph-link-color-hover": "var(--global-colors-blue)"
+					}
+				}
+			],
+			"green": [
+				{
+					"variable": {
+						"paragraph-color": "var(--global-colors-green)",
+						"paragraph-link-color": "var(--global-colors-white)",
+						"paragraph-link-color-hover": "var(--global-colors-ocean)"
+					}
+				}
+			],
+			"ocean": [
+				{
+					"variable": {
+						"paragraph-color": "var(--global-colors-ocean)",
+						"paragraph-link-color": "var(--global-colors-white)",
+						"paragraph-link-color-hover": "var(--global-colors-green)"
+					}
+				}
+			],
+			"yellow": [
+				{
+					"variable": {
+						"paragraph-color": "var(--global-colors-yellow)",
+						"paragraph-link-color": "var(--global-colors-white)",
+						"paragraph-link-color-hover": "var(--global-colors-ocean)"
+					}
+				}
+			],
+			"blue": [
+				{
+					"variable": {
+						"paragraph-color": "var(--global-colors-blue)",
+						"paragraph-link-color": "var(--global-colors-black)",
+						"paragraph-link-color-hover": "var(--global-colors-primary)"
+					}
+				}
+			],
+			"red": [
+				{
+					"variable": {
+						"paragraph-color": "var(--global-colors-red)",
+						"paragraph-link-color": "var(--global-colors-black)",
+						"paragraph-link-color-hover": "var(--global-colors-blue)"
+					}
+				}
+			],
+			"cream": [
+				{
+					"variable": {
+						"paragraph-color": "var(--global-colors-cream)",
+						"paragraph-link-color": "var(--global-colors-yellow)",
+						"paragraph-link-color-hover": "var(--global-colors-ocean)"
+					}
+				}
+			],
+			"white": [
+				{
+					"variable": {
+						"paragraph-color": "var(--global-colors-white)",
+						"paragraph-link-color": "var(--global-colors-yellow)",
+						"paragraph-link-color-hover": "var(--global-colors-ocean)"
+					}
+				}
+			],
+			"eightshift": [
+				{
+					"variable": {
+						"paragraph-color": "var(--global-colors-eightshift)",
+						"paragraph-link-color": "var(--global-colors-blue)",
+						"paragraph-link-color-hover": "var(--global-colors-primary)"
+					}
+				}
+			],
+			"dew": [
+				{
+					"variable": {
+						"paragraph-color": "var(--global-colors-dew)",
+						"paragraph-link-color": "var(--global-colors-ocean)",
+						"paragraph-link-color-hover": "var(--global-colors-white)"
+					}
+				}
+			],
+			"mist": [
+				{
+					"variable": {
+						"paragraph-color": "var(--global-colors-mist)",
+						"paragraph-link-color": "var(--global-colors-ocean)",
+						"paragraph-link-color-hover": "var(--global-colors-green)"
+					}
+				}
+			],
+			"mandy": [
+				{
+					"variable": {
+						"paragraph-color": "var(--global-colors-mandy)",
+						"paragraph-link-color": "var(--global-colors-ocean)",
+						"paragraph-link-color-hover": "rgb(var(--global-colors-mandy-values) / .8)"
+					}
+				}
+			],
+			"pictonBlue": [
+				{
+					"variable": {
+						"paragraph-color": "var(--global-colors-pictonBlue)",
+						"paragraph-link-color": "var(--global-colors-ocean)",
+						"paragraph-link-color-hover": "rgb(var(--global-colors-pictonBlue-values) / .8)"
+					}
+				}
+			],
+			"mediumPurple": [
+				{
+					"variable": {
+						"paragraph-color": "var(--global-colors-mediumPurple)",
+						"paragraph-link-color": "var(--global-colors-ocean)",
+						"paragraph-link-color-hover": "rgb(var(--global-colors-mediumPurple-values) / .8)"
+					}
+				}
+			],
+			"grey": [
+				{
+					"variable": {
+						"paragraph-color": "var(--global-colors-grey)",
+						"paragraph-link-color": "var(--global-colors-ocean)",
+						"paragraph-link-color-hover": "var(--global-colors-green)"
+					}
+				}
+			]
+		},
+		"paragraphFontFamily": [
+			{
+				"variable": {
+					"paragraph-font-family": "var(--global-%value%-font)"
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs/develop/schemas/component.json",
+	"componentName": "layout-archive",
+	"title": "Layout Archive",
+	"componentClass": "layout-archive",
+	"example": {
+		"attributes": {
+			"layoutArchiveRowItems": 3,
+			"layoutArchiveTag": "div",
+			"layoutArchiveUse": "true"
+		}
+	},
+	"attributes": {
+        "layoutArchiveIntro": {
+            "type": "array"
+        },
+        "layoutArchiveItems":{
+            "type": "array"
+        },
+        "layoutArchiveTag":{
+            "type": "string",
+            "default": "div"
+        },
+        "layoutArchiveRowItems":{
+            "type": "integer",
+            "default": 3
+        },
+        "layoutArchiveLoadMoreId":{
+            "type": "string"
+        },
+        "layoutArchiveUse":{
+            "type": "string",
+            "default": "true"
+        }
+	}
+}

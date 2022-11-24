@@ -1,0 +1,35 @@
+{
+	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs/develop/schemas/component.json",
+	"componentName": "card-post",
+	"title": "Card Post",
+	"componentClass": "card-post",
+	"example": {
+		"attributes": {
+			"cardPostIntroContent": "This is intro",
+			"cardPostIntroSize": "small",
+			"cardPostIntroColor": "light"
+		}
+	},
+	"attributes": {
+		"cardPostIntroSize": {
+			"type": "string",
+			"default": "tiny"
+		},
+		"cardPostHeadingSize": {
+			"type": "string",
+			"default": "big"
+		},
+		"cardPostTags": {
+			"type": "array"
+		},
+		"cardPostUrl": {
+			"type": "array"
+		}
+	},
+	"components": {
+		"image": "image",
+		"intro": "paragraph",
+		"heading": "heading",
+		"paragraph": "paragraph"
+	}
+}

@@ -1,0 +1,144 @@
+{
+	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs/develop/schemas/globalManifest.json",
+	"namespace": "eightshift-boilerplate",
+	"background": "#FBF9FF",
+	"foreground": "#9973E3",
+	"config": {
+		"outputCssGlobally": true,
+		"outputCssOptimize": true,
+		"outputCssSelectorName": "esCssVariables",
+		"outputCssGloballyAdditionalStyles": [
+			":root {--es-loader-opacity: 1;}"
+		],
+		"useRemBaseSize": false,
+		"useWrapper": true
+	},
+	"globalVariables": {
+		"customBlocksName": "eightshift-block",
+		"maxCols": 12,
+		"baseFont": "Montserrat",
+		"secondaryFont": "SourceSansPro",
+		"zIndex": {
+			"header": 100,
+			"drawer": 99,
+			"overlay": 98
+		},
+		"breakpoints": {
+			"mobile": 480,
+			"tablet": 960,
+			"desktop": 1920,
+			"large": 1921
+		},
+		"containers": {
+			"default": "80rem",
+			"small": "42.5rem"
+		},
+		"gutters": {
+			"none": "0",
+			"default": "2.5rem",
+			"big": "2.5rem"
+		},
+		"sectionSpacing": {
+			"min":  -300,
+			"max":  300,
+			"step": 10
+		},
+		"sectionInSpacing": {
+			"min":  0,
+			"max":  300,
+			"step": 10
+		},
+		"colors": [
+			{
+				"name": "Primary",
+				"slug": "primary",
+				"color": "#0D3636"
+			},
+			{
+				"name": "Black",
+				"slug": "black",
+				"color": "#000000"
+			},
+			{
+				"name": "Light",
+				"slug": "light",
+				"color": "#CCCCCC"
+			},
+			{
+				"name": "White",
+				"slug": "white",
+				"color": "#FFFFFF"
+			},
+			{
+				"name": "Ocean",
+				"slug": "ocean",
+				"color": "#00B8D4"
+			},
+			{
+				"name": "Green",
+				"slug": "green",
+				"color": "#00E676"
+			},
+			{
+				"name": "Red",
+				"slug": "red",
+				"color": "#B30024"
+			},
+			{
+				"name": "Yellow",
+				"slug": "yellow",
+				"color": "#FFEA00"
+			},
+			{
+				"name": "Blue",
+				"slug": "blue",
+				"color": "#0040F0"
+			},
+			{
+				"name": "Mist",
+				"slug": "mist",
+				"color": "#F1FBFE"
+			},
+			{
+				"name": "Dew",
+				"slug": "dew",
+				"color": "#FAF8FC"
+			},
+			{
+				"name": "Cream",
+				"slug": "cream",
+				"color": "#FFFBF5"
+			},
+			{
+				"name": "Eightshift",
+				"slug": "eightshift",
+				"color": "#0D3636"
+			},
+			{
+				"name": "Grey",
+				"slug": "grey",
+				"color": "#F7F7F7"
+			},
+			{
+				"name": "Mandy",
+				"slug": "mandy",
+				"color": "#E84E4E"
+			},
+			{
+				"name": "Picton Blue",
+				"slug": "pictonBlue",
+				"color": "#44AEDE"
+			},
+			{
+				"name": "Medium Purple",
+				"slug": "mediumPurple",
+				"color": "#9973E3"
+			},
+			{
+				"name": "Dark Grey",
+				"slug": "dark-grey",
+				"color": "#C4C4C4"
+			}
+		]
+	}
+}

@@ -1,0 +1,239 @@
+{
+	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs/develop/schemas/component.json",
+	"componentName": "heading",
+	"title": "Heading",
+	"componentClass": "heading",
+	"example": {
+		"attributes": {
+			"headingContent": "This is heading",
+			"headingLevel": 2,
+			"headingSize": "regular",
+			"headingColor": "black",
+			"headingUse": true,
+			"headingWeight": "bold"
+		}
+	},
+	"attributes": {
+		"headingContent": {
+			"type": "string"
+		},
+		"headingLevel": {
+			"type": "integer",
+			"default": 2
+		},
+		"headingSize": {
+			"type": "string",
+			"default": "regular"
+		},
+		"headingColor": {
+			"type": "string",
+			"default": "black"
+		},
+		"headingUse": {
+			"type": "boolean",
+			"default": true
+		},
+		"headingFontFamily": {
+			"type": "string",
+			"default": "base"
+    },
+		"headingWeight": {
+			"type": "string",
+			"default": "bold"
+		}
+	},
+	"options": {
+		"headingSize": [
+			{
+				"label": "Tiny (14)",
+				"value": "tiny"
+			},
+			{
+				"label": "Small (18)",
+				"value": "small"
+			},
+			{
+				"label": "Regular (24)",
+				"value": "regular"
+			},
+			{
+				"label": "Big (36)",
+				"value": "big"
+			},
+			{
+				"label": "Huge (48)",
+				"value": "huge"
+			},
+			{
+				"label": "Mega (56)",
+				"value": "mega"
+			}
+			
+		],
+		"headingColor": [
+			"primary",
+			"black",
+			"white",
+			"green",
+			"ocean",
+			"yellow",
+			"blue",
+			"red",
+			"cream",
+			"mist",
+			"dew",
+			"eightshift",
+			"grey",
+			"mandy",
+			"pictonBlue",
+			"mediumPurple"
+		],
+		"headingFontFamily": [
+            {
+                "label": "Montserrat",
+                "value": "base"
+            },
+            {
+                "label": "SourceSansPro",
+                "value": "secondary"
+            }
+        ],
+		"headingWeight": [
+			{
+				"label": "Regular (400)",
+				"value": "regular"
+			},
+			{
+				"label": "Bold (600)",
+				"value": "bold"
+			},
+			{
+				"label": "Extra Bold (700)",
+				"value": "extraBold"
+			}
+		]
+	},
+	"variables": {
+		"headingSize": {
+			"tiny": [
+				{
+					"variable": {
+						"heading-font-size": "0.875rem",
+						"heading-line-height": "1"
+					}
+				}
+			],
+			"small": [
+				{
+					"variable": {
+						"heading-font-size": "1.1rem",
+						"heading-line-height": "1"
+					}
+				},
+				{
+					"breakpoint": "tablet",
+					"variable": {
+						"heading-font-size": "1.125rem"
+					}
+				}
+			],
+			"regular": [
+				{
+					"variable": {
+						"heading-font-size": "1rem",
+						"heading-line-height": "1"
+					}
+				},
+				{
+					"breakpoint": "tablet",
+					"variable": {
+						"heading-font-size": "1.5rem"
+					}
+				}
+			],
+			"big": [
+				{
+					"variable": {
+						"heading-font-size": "1.25rem",
+						"heading-line-height": "1"
+					}
+				},
+				{
+					"breakpoint": "tablet",
+					"variable": {
+						"heading-font-size": "2.25rem"
+					}
+				}
+			],
+			"huge": [
+				{
+					"variable": {
+						"heading-font-size": "2.125rem",
+						"heading-line-height": "1"
+					}
+				},
+				{
+					"breakpoint": "tablet",
+					"variable": {
+						"heading-font-size": "3rem"
+					}
+				}
+			],
+			"mega": [
+				{
+					"variable": {
+						"heading-font-size": "2.25rem",
+						"heading-line-height": "1"
+					}
+				},
+				{
+					"breakpoint": "tablet",
+					"variable": {
+						"heading-font-size": "3.5rem"
+					}
+				}
+			]
+		},
+		"headingWeight": {
+			"regular": [
+				{
+					"variable": {
+						"heading-font-weight": "400"
+					}
+				}
+				
+			],
+			"bold": [
+				{
+					"variable": {
+						"heading-font-weight": "600"
+					}
+				}
+				
+			],
+			"extraBold": [
+				{
+					"variable": {
+						"heading-font-weight": "700"
+					}
+				}
+				
+			]
+			
+		},
+		"headingColor": [
+			{
+				"variable": {
+					"heading-color": "var(--global-colors-%value%)"
+				}
+			}
+		],
+		"headingFontFamily": [
+			{
+				"variable": {
+					"heading-font-family": "var(--global-%value%-font)"
+				}
+			}
+		]
+	}
+}

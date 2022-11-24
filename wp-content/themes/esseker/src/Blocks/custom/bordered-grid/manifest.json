@@ -1,0 +1,23 @@
+{
+	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs/develop/schemas/block.json",
+	"blockName": "bordered-grid",
+	"title": "Bordered grid",
+	"description" : "Bordered grid block",
+	"category": "eightshift",
+	"icon": {
+		"src": "es-example"
+	},
+	"components": {
+		"firstParagraph": "paragraph",
+		"secondParagraph": "paragraph",
+		"thirdParagraph": "paragraph",
+		"fourthParagraph": "paragraph",
+		"firstHeading": "heading",
+		"secondHeading": "heading",
+		"thirdHeading": "heading",
+		"fourthHeading": "heading"
+		},
+	"keywords": [
+		"grid"
+	]	
+}

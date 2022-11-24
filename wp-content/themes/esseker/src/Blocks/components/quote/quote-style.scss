@@ -1,0 +1,26 @@
+.quote {
+	margin: 0;
+
+	&__image-img {
+		width: 4.69rem;
+		height: 4.69rem !important; // stylelint-disable-line declaration-no-important
+		object-fit: cover;
+		border-radius: 50%;
+		object-position: center center;
+		margin-bottom: 1rem;
+	}
+
+	&__content {
+		margin: 0;
+	}
+
+	&__separator::before {
+		content: '';
+		margin-bottom: 1rem;
+		margin-top: 1rem;
+		width: 7rem;
+		background-color: var(--global-colors-black);
+		height: 0.05rem;
+		display: inline-block;
+	}
+}

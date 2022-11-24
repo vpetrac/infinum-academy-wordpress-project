@@ -1,0 +1,33 @@
+{
+	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs/develop/schemas/component.json",
+	"componentName": "layout-single",
+	"title": "Layout Single",
+	"componentClass": "layout-single",
+	"example": {
+		"attributes": {
+			"layoutSingleTag": "div",
+			"layoutArchiveUse": "true"
+		}
+	},
+	"attributes": {
+        "layoutSingleHeader": {
+            "type": "array"
+        },
+        "layoutSingleTag":{
+            "type": "string",
+            "default": "div"
+        },
+        "layoutSingleFeatured":{
+            "type": "array"
+        },
+        "layoutSingleMeta":{
+            "type": "array"
+        },
+        "layoutSingleMainContent":{
+            "type": "array"
+        },
+        "layoutSingleSidebar":{
+            "type": "array"
+        }
+	}
+}

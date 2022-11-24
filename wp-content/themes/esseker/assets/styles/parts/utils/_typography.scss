@@ -1,0 +1,8 @@
+@include font-face(global-settings(baseFont), 'Montserrat-Regular', 400);
+@include font-face(global-settings(baseFont), 'Montserrat-Italic', 400, italic);
+@include font-face(global-settings(baseFont), 'Montserrat-Bold', 600);
+@include font-face(global-settings(baseFont), 'Montserrat-ExtraBold', 700);
+@include font-face(global-settings(secondaryFont), 'SourceSansPro-Regular', 400);
+@include font-face(global-settings(secondaryFont), 'SourceSansPro-Italic', 400, italic);
+@include font-face(global-settings(secondaryFont), 'SourceSansPro-Bold', 600);
+@include font-face(global-settings(secondaryFont), 'SourceSansPro-SemiBold', 700);

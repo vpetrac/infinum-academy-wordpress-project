@@ -1,0 +1,38 @@
+.card-post {
+	a {
+		text-decoration: none;
+	}
+
+	&__image {
+		padding-bottom: 1.5rem;
+	}
+
+	&__intro {
+		padding-bottom: 0.5rem;
+	}
+
+	&__heading {
+		padding-bottom: 0.5rem;
+	}
+
+	&__paragraph {
+		padding-bottom: 1.5rem;
+	}
+
+	&__tags {
+		display: flex;
+		flex-direction: row wrap;
+		list-style: none;
+		gap: 1rem;
+		padding-left: 0;
+		margin: 0;
+
+		li {
+			background-color: var(--global-colors-dark-grey);
+			color: var(--global-colors-white);
+			padding: 0.5rem 0.8rem;
+			border-radius: 0.5rem;
+			font-size: 0.875rem;
+		}
+	}
+}

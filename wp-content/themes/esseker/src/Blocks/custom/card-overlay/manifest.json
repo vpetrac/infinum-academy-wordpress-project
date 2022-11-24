@@ -1,0 +1,19 @@
+{
+	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs/develop/schemas/block.json",
+	"blockName": "card-overlay",
+	"title": "Card Overlay",
+	"description" : "Card with custom settings.",
+	"category": "eightshift",
+	"icon": {
+		"src": "es-card"
+	},
+	"keywords": [
+		"Service",
+		"Box",
+		"Card Overlay"
+	],
+	"components": {
+		"card-overlay": "card-overlay"
+	}
+	
+}

@@ -1,0 +1,18 @@
+{
+	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs/develop/schemas/variation.json",
+	"parentName": "card-overlay",
+	"name": "card-overlay-red",
+	"title": "Card Overlay Red",
+	"description" : "Card Overlay with red text",
+	"icon": {
+		"src": "es-button-block"
+	},
+	"attributes": {
+		"cardOverlayCardOverlayHeadingColor": "red",
+        "cardOverlayCardOverlayParagraphColor": "red",
+		"cardOverlayCardOverlayVerticalPosition": "end"
+	},
+	"scope": [
+		"inserter"
+	]
+}

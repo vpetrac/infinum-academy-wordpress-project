@@ -1,0 +1,9 @@
+.heading {
+	margin: 0;
+	font-weight: var(--heading-font-weight);
+	color: var(--heading-color, var(--global-colors-black, currentColor));
+	font-size: var(--heading-font-size, 1.5rem);
+	line-height: var(--heading-line-height, 1.25);
+	overflow-wrap: anywhere;
+	font-family: var(--heading-font-family, var(--base-font-family));
+}

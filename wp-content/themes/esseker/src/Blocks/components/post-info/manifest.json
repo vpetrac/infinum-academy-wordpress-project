@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs/develop/schemas/component.json",
+	"componentName": "post-info",
+	"title": "Post Info",
+	"componentClass": "post-info",
+	"example": {
+		"attributes": {
+			"postInfoUse": true
+		}
+	},
+	"attributes": {
+		"postInfoUse": {
+			"type": "boolean",
+			"default": true
+		},
+        "postTags": {
+			"type": "string"
+		},
+        "postId": {
+			"type": "string"
+		},
+        "postDate": {
+			"type": "string"
+		},
+        "postTime": {
+			"type": "string"
+		},
+        "postAuthor": {
+			"type": "string"
+		},
+        "readingTime": {
+			"type": "string"
+		}
+	},
+	"components": {
+		"date": "paragraph",
+		"author": "paragraph",
+		"reading" : "paragraph"
+	}
+}
